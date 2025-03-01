@@ -1,0 +1,6 @@
+site_name: Azure Playground
+nav:
+  - Home: index.md
+  - Change log: changelog.md
+  - Setup: setup.md
+theme: readthedocs
