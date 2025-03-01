@@ -2,6 +2,8 @@
 
 Playground for working with all kinds of Azure services and resources.
 
+You can find the GitHub repository [here](https://github.com/wvanlosser/azure-playground).
+
 ## About
 
 In Februari 2025 I've followed an in-person training AZ-204: Developing Solutions for Azure. During these five days I've been introduced to several Azure services and resources and I'll using this repo to play with those services and resources.

@@ -1,6 +1,7 @@
 # Azure Playground
 
 Playground for working with all kinds of Azure services and resources.
+
 You can find the documenation about this project [here](https://wvanlosser.github.io/azure-playground/).
 
 ## About

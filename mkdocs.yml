@@ -4,3 +4,4 @@ nav:
   - Change log: changelog.md
   - Setup: setup.md
 theme: readthedocs
+repo_url: https://github.com/wvanlosser/azure-playground
