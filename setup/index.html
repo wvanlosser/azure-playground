@@ -83,11 +83,15 @@
               
                 <h1 id="setup">Setup</h1>
 <p>This segment will contain instructions about how to setup and teardown the Azure Environment.
-I intent to use BICEP scripts together with the Azure CLI for this.</p>
+I intent to use Powershell and BICEP scripts together with the Azure CLI for this.</p>
+<p>All scripts can be found in the <code>deployment</code> folder of the repository.</p>
 <h2 id="setting-up-the-azure-environment">Setting up the Azure Environment</h2>
-<p>TODO</p>
+<p>Within Azure you can work with resource groups.
+Resource groups are a container in which you can store a number of resources.
+The playground will use a single resource group to contain all resources.</p>
+<p>Setting up the resource group is as simple as running the <code>setup.ps1</code> script.</p>
 <h2 id="tearing-down-the-azure-environment">Tearing down the Azure Environment</h2>
-<p>TODO</p>
+<p>The resource group can be deleted from Azure running the <code>teardown.ps1</code> script.</p>
               
             </div>
           </div><footer>
