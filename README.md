@@ -14,7 +14,7 @@ The purpose is to integrate as many Azure services that I think are interesting 
 
 ## Intented way of work
 
-Like stated above, I'll be using a lot of different Azure services. 
+Like stated above, I'll be using a lot of different Azure services.
 I'll be developing several small pieces of code that will use one or more Azure services (as a service or as the platform it runs on).
 Because using a lot of different Azure services can become a costly operation, my intent is to create scripts to set-up and teardown my Azure Environment between development sessions.
 
