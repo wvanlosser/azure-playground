@@ -54,6 +54,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#tearing-down-the-azure-environment">Tearing down the Azure Environment</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#setting-up-essential-azure-resources">Setting up essential Azure resources</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -83,7 +85,10 @@
               
                 <h1 id="setup">Setup</h1>
 <p>This segment will contain instructions about how to setup and teardown the Azure Environment.
-I intent to use Powershell and BICEP scripts together with the Azure CLI for this.</p>
+I intent to use Powershell together with the Azure CLI for this.</p>
+<p>Within Azure everything is a resource be it a database, a storage account or web applications.
+I'll be using BICEP scripts to deploy the resources to Azure. 
+VS Code has plugins for both Azure and BICEP which make it rather easy to deploy resources to Azure.</p>
 <p>All scripts can be found in the <code>deployment</code> folder of the repository.</p>
 <h2 id="setting-up-the-azure-environment">Setting up the Azure Environment</h2>
 <p>Within Azure you can work with resource groups.
@@ -92,6 +97,11 @@ The playground will use a single resource group to contain all resources.</p>
 <p>Setting up the resource group is as simple as running the <code>setup.ps1</code> script.</p>
 <h2 id="tearing-down-the-azure-environment">Tearing down the Azure Environment</h2>
 <p>The resource group can be deleted from Azure running the <code>teardown.ps1</code> script.</p>
+<h2 id="setting-up-essential-azure-resources">Setting up essential Azure resources</h2>
+<p>I've classified a number of Azure resources as essential for my playground. The essentials are:
+1. Storage: I need somewhere to store images, datafiles, etc.
+2. App Plan: In order to run applications you need an App Plan.</p>
+<p>To deploy the essentials use the <code>essentials/essentials.bicep</code> script.</p>
               
             </div>
           </div><footer>
