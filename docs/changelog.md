@@ -1,5 +1,13 @@
 # Change log
 
+## 2025-03-15: Essentials with BICEP
+
+* Added an essentials setup script
+* Added an application plan script (free-tier)
+* Added a storage script (storage account with a blob container)
+
+I've started using [BICEP](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/) to deploy my Azure resources.
+
 ## 2025-03-08: Initial deployment scripts
 
 * Added initial setup script
